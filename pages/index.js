@@ -1,12 +1,11 @@
-import { Inter } from "next/font/google";
+import Home from "./home"
 
-const inter = Inter({ subsets: ["latin"] });
+export default function App() {
 
-export default function Home() {
   return (
     <>
       <div>
-        Hello this is my week 6 project in NextJs
+        <Home />
       </div>
     </>
   );
